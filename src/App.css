@@ -1,0 +1,46 @@
+#root {
+  width: 40%;
+}
+
+.result {
+  background: #91929c;
+  font-size: 24px;
+  padding: 3% 1%;
+  color: white;
+  text-align: right;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border-bottom: 1px solid #e6e6e6;
+}
+
+button {
+  background: #e0e0e0;
+  border: none;
+  padding: 24px 4px;
+  font-weight: 700;
+  border-right: 1px solid #e6e6e6;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #c4c4c4;
+}
+
+.row button:last-child {
+  border-right: none;
+}
+
+.row button:last-child:hover {
+  background: #ff8000;
+}
+
+.operation {
+  background: #f99028;
+}
+
+.zero {
+  grid-column: span 2;
+}
