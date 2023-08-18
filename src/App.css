@@ -2,7 +2,7 @@
   width: 90%;
 }
 
-.app {
+#main {
   display: flex;
   justify-content: space-between;
 }
@@ -27,6 +27,7 @@
 
 .quote h2 {
   text-align: center;
+  color: #ff8000;
 }
 
 blockquote {
@@ -37,6 +38,7 @@ blockquote {
   font-size: 1.1em;
   text-align: right;
   font-weight: 700;
+  color: #91929c;
 }
 
 .calcul {
