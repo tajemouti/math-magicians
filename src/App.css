@@ -7,6 +7,15 @@
   justify-content: space-between;
 }
 
+.loading,
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  color: #f99028;
+}
+
 .quote {
   display: flex;
   flex-direction: column;

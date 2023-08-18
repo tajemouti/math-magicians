@@ -37,7 +37,7 @@ const Quote = () => {
 
   if (error) {
     return (
-      <div>
+      <div className="error">
         Error:
         {error}
       </div>
