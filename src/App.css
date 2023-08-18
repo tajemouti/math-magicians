@@ -1,10 +1,53 @@
 #root {
+  width: 90%;
+}
+
+#main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.loading,
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  color: #f99028;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 55%;
+  padding: 1%;
+  font-size: 2em;
+}
+
+.quote h2 {
+  text-align: center;
+  color: #ff8000;
+}
+
+blockquote {
+  text-align: justify;
+}
+
+.quote p {
+  font-size: 1.1em;
+  text-align: right;
+  font-weight: 700;
+  color: #91929c;
+}
+
+.calcul {
   width: 40%;
 }
 
 .result {
   background: #91929c;
-  font-size: 24px;
+  font-size: 2em;
   padding: 3% 1%;
   color: white;
   text-align: right;
@@ -20,6 +63,7 @@ button {
   background: #e0e0e0;
   border: none;
   padding: 24px 4px;
+  font-size: 1.1em;
   font-weight: 700;
   border-right: 1px solid #e6e6e6;
   cursor: pointer;
