@@ -1,11 +1,15 @@
 import React from 'react';
 import Calculator from './components/Calculator';
+import Quote from './components/Quote';
 import './App.css';
 
-const App = () => (
-  <div className="app">
-    <Calculator />
-  </div>
-);
+function App() {
+  return (
+    <div className="app">
+      <Quote />
+      <Calculator />
+    </div>
+  );
+}
 
 export default App;
