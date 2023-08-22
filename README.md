@@ -33,7 +33,7 @@ Visual Studia Code, React.js, HTML/JavaScript linters and ES6.
 </details>
 
 <details>
-  <summary>SPA</summary>
+  <summary>MPA</summary>
 </details>
 
 ### Key Features <a name="key-features"></a>
