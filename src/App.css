@@ -1,3 +1,24 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  gap: 3em;
+  margin-top: 10%;
+}
+
+.homepage h2 {
+  font-size: 2em;
+  color: #ff8000;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8em;
+  text-align: justify;
+  padding: 2%;
+  box-shadow: 0 0 10px 0;
+}
+
 #main {
   display: flex;
   justify-content: space-between;
@@ -54,7 +75,7 @@ blockquote {
 
 #main h2 {
   font-size: 2em;
-  color:#ff8000;
+  color: #ff8000;
 }
 
 .result {
@@ -139,25 +160,4 @@ button:hover {
 
 .navbar-links a:hover {
   text-decoration: underline;
-}
-
-.welcome {
-  display: flex;
-  flex-direction: column;
-  font-size: 1.8em;
-  text-align: justify;
-  padding: 2%;
-  box-shadow: 0 0 10px 0;
-}
-
-.homepage {
-  display: flex;
-  flex-direction: column;;
-  gap: 3em;
-  margin-top: 10%;
-}
-
-.homepage h2 {
-  font-size: 2em;
-  color: #ff8000;
 }
