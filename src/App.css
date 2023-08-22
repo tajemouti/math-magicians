@@ -1,10 +1,7 @@
-#root {
-  width: 90%;
-}
-
 #main {
   display: flex;
   justify-content: space-between;
+  margin-top: 10%;
 }
 
 .loading,
@@ -12,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 3em;
+  font-size: 2em;
   color: #f99028;
 }
 
@@ -20,14 +17,23 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 55%;
-  padding: 1%;
+  gap: 1em;
+  padding: 2%;
   font-size: 2em;
+  margin-top: 10%;
 }
 
 .quote h2 {
-  text-align: center;
   color: #ff8000;
+  text-align: center;
+}
+
+.quote-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  box-shadow: 0 0 10px 0;
+  padding: 2%;
 }
 
 blockquote {
@@ -42,7 +48,13 @@ blockquote {
 }
 
 .calcul {
-  width: 40%;
+  width: 50%;
+  box-shadow: 0 0 10px 0;
+}
+
+#main h2 {
+  font-size: 2em;
+  color:#ff8000;
 }
 
 .result {
@@ -87,4 +99,65 @@ button:hover {
 
 .zero {
   grid-column: span 2;
+}
+
+.app {
+  padding: 10% 10% 5% 10%;
+  background-color: #f8f8f8;
+  width: 100vw;
+  height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 10%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-shadow: 0 0 10px 0;
+  z-index: 3;
+}
+
+.navbar-title {
+  font-size: 2.5em;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.7em;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.8em;
+  text-align: justify;
+  padding: 2%;
+  box-shadow: 0 0 10px 0;
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;;
+  gap: 3em;
+  margin-top: 10%;
+}
+
+.homepage h2 {
+  font-size: 2em;
+  color: #ff8000;
 }

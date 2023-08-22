@@ -47,11 +47,13 @@ const Quote = () => {
   return (
     <div className="quote">
       <h2>Inspirational Quote</h2>
-      <blockquote>{quote.quote}</blockquote>
-      <p>
-        -
-        {quote.author}
-      </p>
+      <div className="quote-text">
+        <blockquote>{quote.quote}</blockquote>
+        <p>
+          -
+          {quote.author}
+        </p>
+      </div>
     </div>
   );
 };

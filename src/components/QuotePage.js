@@ -2,7 +2,7 @@ import React from 'react';
 import Quote from './Quote';
 
 const QuotePage = () => (
-  <div>
+  <div className="quote-container">
     <Quote />
   </div>
 );
