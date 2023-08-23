@@ -12,10 +12,10 @@ const Calculator = () => {
   };
 
   return (
-    <div id="main">
-      <h2>Do some math!</h2>
+    <div id="main" data-testid="calculator-component">
+      <h2>Let&apos;s do some math!</h2>
       <div className="calcul">
-        <div className="result">{calculation.next || calculation.total || '0'}</div>
+        <div className="result" data-testid="display">{calculation.next || calculation.total || '0'}</div>
         <div className="row">
           <Button label="AC" onClick={() => handleClick('AC')} />
           <Button label="+/-" onClick={() => handleClick('+/-')} />

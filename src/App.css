@@ -22,7 +22,7 @@
 #main {
   display: flex;
   justify-content: space-between;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .loading,

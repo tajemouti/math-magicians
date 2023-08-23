@@ -16,7 +16,7 @@ export default function operate(numberOne, numberTwo, operation) {
     try {
       return one.div(two).toString();
     } catch (err) {
-      return "Can't divide by 0.";
+      return 'Cannot divide by zero';
     }
   }
   if (operation === '%') {

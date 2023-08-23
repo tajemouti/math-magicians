@@ -1,30 +1,14 @@
-import React from 'react';
-import { render, screen, waitFor } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect'; // Extend expect with jest-dom matchers
+import { render, screen } from '@testing-library/react';
+import '@testing-library/jest-dom/extend-expect';
 import Quote from '../components/Quote';
 
-test('renders Quote component', async () => {
+test('renders Quote component', () => {
+  const { container } = render(<Quote />);
+  expect(container.firstChild).toMatchSnapshot();
+});
+
+test('simulates user interaction', () => {
   render(<Quote />);
-
-  // Wait for the component to render either the quote or loading message
-  await waitFor(() => {
-    const quoteElement = screen.queryByText(/Inspirational Quote/i);
-    const loadingElement = screen.queryByText(/Loading.../i);
-    const errorElement = screen.queryByText(/Error:/i);
-
-    // Check if the quote content is rendered
-    if (quoteElement) {
-      expect(quoteElement).toBeInTheDocument();
-    }
-
-    // Check if the loading message is rendered
-    if (loadingElement) {
-      expect(loadingElement).toBeInTheDocument();
-    }
-
-    // Check if the error message is rendered
-    if (errorElement) {
-      expect(errorElement).toBeInTheDocument();
-    }
-  });
+  const quoteElement = screen.getByText('Loading...');
+  expect(quoteElement).toBeInTheDocument();
 });
