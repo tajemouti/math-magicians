@@ -13,7 +13,7 @@ const Calculator = () => {
 
   return (
     <div id="main">
-      <h2>Let&apos;s do some math!</h2>
+      <h2>Do some math!</h2>
       <div className="calcul">
         <div className="result">{calculation.next || calculation.total || '0'}</div>
         <div className="row">

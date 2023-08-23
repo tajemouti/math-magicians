@@ -1,4 +1,4 @@
-import calculate from './calculate';
+import calculate from '../logic/calculate';
 
 describe('Basic operations tests', () => {
   it('Testing the sum case ', () => {
