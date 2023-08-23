@@ -13,7 +13,7 @@ test('renders QuotePage component', async () => {
     if (quoteContainerElement) {
       expect(quoteContainerElement).toBeInTheDocument();
     }
-    
+
     if (loadingElement) {
       expect(loadingElement).toBeInTheDocument();
     }

@@ -5,7 +5,7 @@ import Quote from '../components/Quote';
 
 test('renders Quote component', async () => {
   render(<Quote />);
-  
+
   // Wait for the component to render either the quote or loading message
   await waitFor(() => {
     const quoteElement = screen.queryByText(/Inspirational Quote/i);
@@ -16,7 +16,7 @@ test('renders Quote component', async () => {
     if (quoteElement) {
       expect(quoteElement).toBeInTheDocument();
     }
-    
+
     // Check if the loading message is rendered
     if (loadingElement) {
       expect(loadingElement).toBeInTheDocument();

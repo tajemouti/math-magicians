@@ -13,6 +13,7 @@
   - [Usage](#usage)
   - [Run tests](#run-tests)
 - [👥 Author](#author)
+- [👥 Collaborators](#collaborators)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
@@ -85,6 +86,11 @@ To test this application, run:
 - GitHub: [@tajemouti](https://github.com/tajemouti)
 - Twitter: [@AjrassTajemouti](https://twitter.com/AjrassTajemouti)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/ajrass)
+
+## 👥 Collaborators <a name="collaborators"></a>
+
+- GitHub: [@Graciano](https://github.com/Graciano1997)
+- GitHub: [@Collins](https://github.com/firstpj)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
