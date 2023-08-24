@@ -70,7 +70,7 @@ blockquote {
 
 .calcul {
   width: 50%;
-  min-width: 300px;  
+  min-width: 300px;
   box-shadow: 0 0 10px 0;
 }
 
@@ -125,7 +125,6 @@ button:hover {
 
 .app {
   padding: 10% 10% 5% 10%;
-  
   width: 100vw;
 }
 
@@ -168,17 +167,21 @@ button:hover {
     flex-direction: column;
     gap: 1em;
   }
+
   .app {
     margin-top: 10%;
   }
+
   #main {
     flex-direction: column;
     align-items: center;
     gap: 2em;
   }
+
   .homepage {
     margin-top: 15%;
   }
+
   .quote h2 {
     font-size: 1.1em;
   }
