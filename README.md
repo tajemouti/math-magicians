@@ -6,6 +6,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -22,7 +23,7 @@
 
 # 📖 [Math Magicians] <a name="about-project"></a>
 
-**[Math Magicians]** Welcome to Math Magicians. Your go-to React SPA web application for all your mathematical needs! A powerful calculator application that makes complex computations a breeze. Math Magicians is here to simplify your math journey with a sleek and user-friendly interface.
+**[Math Magicians]** Welcome to Math Magicians. Your go-to web application for all your mathematical needs! A powerful calculator application that makes complex computations a breeze. Math Magicians is here to simplify your math journey with a sleek and user-friendly interface.
 
 ## 🛠 Built With <a name="built-with"></a>
 Visual Studia Code, React.js, HTML/JavaScript linters and ES6.
@@ -42,10 +43,14 @@ Visual Studia Code, React.js, HTML/JavaScript linters and ES6.
 - **[React Library]**
 - **[Linters implementation]**
 - **[Math application]**
-- **[Single Page application]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://math-magicians-umvn.onrender.com/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -65,19 +70,27 @@ In order to use this project.. Clone this repository to your desired folder by p
 
 ### Install <a name="install"></a>
 
-Install dependencies:
+To install the project's dependencies, run:
 
-  npm install
+```
+npm install
+```
 
 ### Usage <a name="usage"></a>
 
--Run: npm start
+To use, run:
+
+```
+npm start
+```
 
 ### Run tests <a name="run-tests"></a>
 
 To test this application, run:
 
-  npm test
+```
+npm test
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -96,7 +109,7 @@ To test this application, run:
 
 - [ ] **[A medium fedility wire-frame application]**
 - [ ] **[Math Magicians web application]**
-- [ ] **[Secure deployment using GitHub Pages]**
+- [ ] **[Secure deployment Render]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

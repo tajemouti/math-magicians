@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   gap: 3em;
-  margin-top: 10%;
 }
 
 .homepage h2 {
@@ -40,7 +39,6 @@
   gap: 1em;
   padding: 2%;
   font-size: 2em;
-  margin-top: 10%;
 }
 
 .quote h2 {
@@ -172,13 +170,17 @@ button:hover {
     margin-top: 10%;
   }
 
+  .homepage {
+    margin-top: 15%;
+  }
+
   #main {
     flex-direction: column;
     align-items: center;
     gap: 2em;
   }
 
-  .homepage {
+  .quote {
     margin-top: 15%;
   }
 
