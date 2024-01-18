@@ -48,7 +48,7 @@ Visual Studia Code, React.js, HTML/JavaScript linters and ES6.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://math-magicians-umvn.onrender.com/)
+- [Live Demo Link](https://glowing-bubblegum-24c388.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -72,7 +72,7 @@ In order to use this project.. Clone this repository to your desired folder by p
 
 To install the project's dependencies, run:
 
-```
+```sh
 npm install
 ```
 
@@ -80,7 +80,7 @@ npm install
 
 To use, run:
 
-```
+```sh
 npm start
 ```
 
@@ -88,7 +88,7 @@ npm start
 
 To test this application, run:
 
-```
+```sh
 npm test
 ```
 
